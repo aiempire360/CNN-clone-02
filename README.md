@@ -1,31 +1,64 @@
-# CNN-clone-02
-# CNN-Clone
+# CNN Clone
 
-*Automatically synced with your [v0.dev](https://v0.dev) deployments*
+A modern CNN clone built with Next.js, TypeScript, and Tailwind CSS. This project demonstrates a responsive news website with features similar to CNN's website.
 
-[![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://vercel.com/sofiakamals-projects/v0-cnn-clone)
-[![Built with v0](https://img.shields.io/badge/Built%20with-v0.dev-black?style=for-the-badge)](https://v0.dev/chat/projects/Ben8hU0Hj18)
+## Features
 
-## Overview
+- Responsive design that works on desktop and mobile
+- Featured news section with large hero image
+- Category-based news sections
+- Latest news sidebar
+- Modern navigation with search functionality
+- Footer with categories and social links
 
-This repository will stay in sync with your deployed chats on [v0.dev](https://v0.dev).
-Any changes you make to your deployed app will be automatically pushed to this repository from [v0.dev](https://v0.dev).
+## Tech Stack
 
-## Deployment
+- Next.js 14
+- TypeScript
+- Tailwind CSS
+- Hero Icons
 
-Your project is live at:
+## Getting Started
 
-**[https://vercel.com/sofiakamals-projects/v0-cnn-clone](https://vercel.com/sofiakamals-projects/v0-cnn-clone)**
+1. Clone the repository:
+```bash
+git clone https://github.com/yourusername/cnn-clone.git
+cd cnn-clone
+```
 
-## Build your app
+2. Install dependencies:
+```bash
+npm install
+```
 
-Continue building your app on:
+3. Run the development server:
+```bash
+npm run dev
+```
 
-**[https://v0.dev/chat/projects/Ben8hU0Hj18](https://v0.dev/chat/projects/Ben8hU0Hj18)**
+4. Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-## How It Works
+## Project Structure
 
-1. Create and modify your project using [v0.dev](https://v0.dev)
-2. Deploy your chats from the v0 interface
-3. Changes are automatically pushed to this repository
-4. Vercel deploys the latest version from this repository
+```
+src/
+├── app/                 # Next.js app directory
+│   ├── layout.tsx      # Root layout component
+│   └── page.tsx        # Home page component
+├── components/         # React components
+│   ├── Header.tsx     # Navigation header
+│   ├── Footer.tsx     # Page footer
+│   ├── FeaturedNews.tsx    # Featured news section
+│   ├── CategorySection.tsx # News category section
+│   └── LatestNews.tsx     # Latest news sidebar
+└── styles/            # Global styles
+    └── globals.css    # Global CSS file
+```
+
+## Contributing
+
+Feel free to submit issues and enhancement requests.
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details. 
